@@ -13,7 +13,7 @@
 #autocomplete li {
     background: #fff;
     color: #000;
-    cursor: default;
+    cursor: pointer;
     white-space: pre;
     zoom: 1;
 }
