@@ -1,0 +1,6 @@
+<web-app xmlns="http://caucho.com/ns/resin">
+  <log name='' level='all' path='WEB-INF/log/error.log'
+       timestamp="[%m-%d-%y-%H:%M:%S]"
+       archive-format="error-%m%d%Y.log.gz"
+       rollover-period='1W'/>
+</web-app>
