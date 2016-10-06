@@ -1,0 +1,9 @@
+<html><head></head>
+<body>
+<p>Enter instructor's last name to see what courses they teach</p>
+<form action="instructor.jsp" method="get">
+<input type=text name=value1><br>
+<input type=submit name=find value=find>
+</form>
+</body>
+</html>

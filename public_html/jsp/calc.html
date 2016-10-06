@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>A simple calculator: results</title>
+    </head>
+    <body>
+    <%-- Comment --%>
+    <%-- This is a simple calculator --%>
+    <%-- Declaration --%>
+    <%! int i; %>
+    <%-- Scriptlet --%>
+    <% int first  = Integer.parseInt(request.getParameter("value1"));
+    int second = Integer.parseInt(request.getParameter("value2"));
+    %>
+    <%-- Expressions --%>
+    <h2>The sum of  <%= first %> and <%= second %> is <%= first + second %> </h2>
+    <%-- Scriptlet --%>
+    <% for (i=1; i<10; i++) out.println(i + " "); %>
+    <p>Enter two numbers and click the 'calculate' button.</p>
+    <form action="calc.jsp" method="get">
+      <input type=text name=value1><br>
+      <input type=text name=value2 ><br>
+      <input type=submit name=calculate value=calculate>
+    </form> 
+  </body>
+</html>
