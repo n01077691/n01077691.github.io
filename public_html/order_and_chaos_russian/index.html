@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=yes" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=10.0; user-scalable=1;" />
+<link rel="shortcut icon" href="order_and_chaos.jpg" />
+<title>Порядок против Хаоса</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<div id="blue" class="relative" onclick="setBlue(event)"></div>
+<br><br>
+<div id="red" class="relative_red" onclick="setRed(event)"></div>
+<p id="p_standard">Добро Пожаловать в игру "Порядок против Хаоса"</p>
+
+<p id="p_order">Порядок начинает первым. Его задача -
+				собрать 5 кругов одного цвета в линию
+				(диагональ или прямые линии)</p>
+<p id="p_chaos">Задача Хаоса - предотвратить порядок на поле</p>
+
+<p id="p_restart" onclick="restart_page()">Нажми сюда чтобы начать сначала!</p>
+
+<pre>           КАК ИГРАТЬ:
+
+1. Выберите со своим соперником
+кто Порядок а кто Хаос
+
+2. Порядок начинает первым,
+нажмите на круг(любой цвет, 
+выбранная фигура засветится)
+ 
+3. Выберите клетку на поле и 
+нажмите левой кнопкой мыши на неё
+ 
+4. Как только Порядок закончил 
+ход, Хаос может выбрать цвет и 
+расположить свою фигуру на поле
+ 
+5. Игра продолжается пока 
+Порядок не выложит 5 кругов 
+подряд в линию одного цвета
+(диагональ или прямые линии)
+Или пока Хаос не заполнит поле 
+так, чтобы у Порядка не было 
+возможности собрать комбо. 
+</pre>
+<table>
+<tr>
+<td id="00"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="01"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="02"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="03"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="04"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="05"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+<tr>
+<td id="10"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="11"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="12"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="13"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="14"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="15"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+<tr>
+<td id="20"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="21"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="22"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="23"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="24"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="25"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+<tr>
+<td id="30"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="31"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="32"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="33"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="34"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="35"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+<tr>
+<td id="40"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="41"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="42"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="43"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="44"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="45"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+<tr>
+<td id="50"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="51"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="52"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="53"><div class="tablecell" onclick="place_figure(event)"></div></td>
+<td id="54"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+<td id="55"><div class="tablecell" onclick="place_figure(event)"></div></td> 
+</tr>
+</table>
+
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
