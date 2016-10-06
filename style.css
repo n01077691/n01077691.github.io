@@ -1,10 +1,12 @@
 nav {
-    background-color: green;
+    background-color: white;
 }
 
-a:hover {
-    background-color: yellow;
+a:hover,a:visited:hover{
+color:#fff;
+text-decoration:none;
 }
-li:hover{
-    color: red;  
+a,a:visited{
+color:#555;
+text-decoration:none;
 }
