@@ -1,8 +1,8 @@
 a:hover,a:visited:hover{
-color:#fff;
+color:#06F7EC;
 text-decoration:none;
 }
 a,a:visited{
-color:#555;
+color:red;
 text-decoration:none;
 }
