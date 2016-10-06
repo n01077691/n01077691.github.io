@@ -1,0 +1,22 @@
+html{
+	background-color: #800000;	
+}
+
+#page{
+	background-color: #ff0000;
+}
+
+.blog{
+	margin: 0px auto 53px;
+	width: 93.75%;
+}
+
+.blog .main{
+	float: left;
+	width: 62.888889%;
+}
+
+.blog .sidebar{
+	float: right;
+	width: 36.777778%;	
+}
