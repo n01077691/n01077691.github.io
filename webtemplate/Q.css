@@ -1,3 +1,11 @@
+a:hover{
+    color: #28439B;
+    background-color: red;
+}
+#hnew {
+    color: #20262A;
+    font-weight: bold;
+}
 body {
     width: 100% !important;
     margin: 0 !important;
