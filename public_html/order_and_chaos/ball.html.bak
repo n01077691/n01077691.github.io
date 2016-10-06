@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Ball</title>
+<link rel="stylesheet" type="text/css" href="ball_style.css">
+</head>
+<body>
+
+<section class="stage">
+  <figure class="ball">
+    <span class="shadow"></span>
+    <span class="iris"></span>
+  </figure>
+</section>
+
+</body>
+</html>
