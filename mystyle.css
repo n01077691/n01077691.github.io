@@ -1,7 +1,8 @@
-.colors{
+.headings{
     color: red;
     font-weight: bold;
+    font-size: 120%;
 }
-.colors:hover{
+.headings:hover{
     color: yellow;
 }
