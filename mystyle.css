@@ -1,10 +1,10 @@
 .headings{
-    color: #1995D7;
+    color: #112E9F;
     font-weight: bold;
     font-size: 200%;
 }
 .headings:hover{
-    color: #123f8e;
+    color: #1995D7;
     font-size: 180%;
     text-shadow: 0 0 20px #12EA8F;
 }
