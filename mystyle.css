@@ -1,7 +1,7 @@
-div{
+.colors{
     color: red;
     font-weight: bold;
 }
-p:hover{
+.colors:hover{
     color: yellow;
 }
