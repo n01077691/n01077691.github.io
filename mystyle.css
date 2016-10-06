@@ -8,3 +8,9 @@
     font-size: 210%;
     text-shadow: 0 0 10px #FFF93D;
 }
+
+a:hover{
+    color: #177FB6;
+    font-size: 105%;
+    text-shadow: 0 0 10px #3DFFEA;
+}
