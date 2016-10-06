@@ -1,0 +1,11 @@
+@media screen {
+table.ex1, table.ex2, table.ex3{
+	width: 100%;
+	height: 20%;
+}
+p{
+	font-size: 105%;
+}
+}
+
+
