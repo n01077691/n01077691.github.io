@@ -1,7 +1,4 @@
-/*#hnew {
-    color: #20262A;
-    font-weight: bold;
-}*/
+
 body {
     width: 100% !important;
     margin: 0 !important;
@@ -15,10 +12,7 @@ a {
     text-decoration: underline;
     color: #20262b;
 }
-a:hover{
-    color: #28439B;
-    background-color: red;
-}
+
 a[href^="http://"]:after,
 a[href^="http://"]:visited:after {
     content: " (" attr(href) ")";
