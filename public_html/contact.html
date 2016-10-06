@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<style>
+  input#pic{
+         vertical-align: middle;
+          position: relative;
+          top: 3px;
+  }
+  input#text{
+          height:44px;
+  }
+  </style>
+	<title>
+	Contact Me
+	</title>
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Put your title here! -->
+	<title></title>
+
+	<meta name="description" content="">
+
+	 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width">
+
+	<link href="style.css" rel="stylesheet">
+
+	<!-- Load Open Sans and Merriweather from Google Fonts
+		For optimal performance, customize it to load the styles you need:
+		http://goo.gl/QufgJ
+	-->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Merriweather:400,700,900" rel="stylesheet">
+
+	<!-- All JavaScript at the bottom, except for Modernizr
+		Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
+		For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="js/modernizr-2.6.1.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Prompt IE 6 and 7 users to install Chrome Frame:		chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 8]>
+		<p class="chromeframe alert alert-warning">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+	<![endif]-->
+
+	<header id="master-header" class="clearfix" role="banner">
+
+		<hgroup>
+			<h1 id="site-title"><a href="index.html" title="Your Site Name">Contact Me!</a></h1>
+			<h2 id="site-description">Fill in fields to send me a message</h2>
+		</hgroup>
+
+	</header> <!-- #master-header -->
+
+<div id="main" class="row clearfix">
+
+	<!-- Main navigation -->
+	<nav class="main-navigation clearfix span12" role="navigation">
+		<h3 class="assistive-text">Main menu</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>
+				<a href="about.html">About</a>
+				<ul class="sub-menu">
+					<li><a href="diana/index.html">Diana's Page</a></li>
+					<!--<li><a href="#">Subpage 2</a></li>-->
+				</ul>
+			</li>
+			<li class="current"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav> <!-- #main-navigation -->
+
+<div id="content" role="main" class="span7">
+
+	<article class="page hentry">
+
+		<header class="entry-header">
+			<h1 class="entry-title">Contact</h1>
+		</header> <!-- .entry-header -->
+
+		<form action="sendmail.php" method="post" id="contactform">
+
+			<fieldset class="row">
+
+				<legend>Contact me :)</legend>
+
+				<p>
+					<label for="your-name">Your Name</label>
+					<input type="text" name="name" id="your-name" class="input-xlarge">
+				</p>
+
+				<p>
+					<label for="your-email">Your Email <span class="required">(required)</span></label>
+					<input type="email" name="email" id="your-email" class="input-xlarge" required>
+				</p>
+
+				<p>
+					<label for="your-subject">Subject</label>
+					<input type="text" name="subject" id="your-subject" class="input-xlarge">
+				</p>
+
+				<p>
+					<label for="your-message">Your message <span class="required">(required)</span></label>
+					<textarea name="message" cols="50" rows="10" id="your-message" class="input-xxlarge" required placeholder="What do you want to say?"></textarea>
+				</p>
+
+				<!-- This is hidden for normal users -->
+				<div class="hidden">
+					<label>
+						Do not fill out this field
+						<input name="s_check">
+					</label>
+				</div>
+
+				<p>
+					<input type="submit" name="submit" class="primary" value="Send Message">
+				</p>
+
+				<p hidden id="response"></p>
+
+			</fieldset>
+
+		</form>
+
+	</article> <!-- .page -->
+
+</div> <!-- #content -->
+
+<div id="sidebar" role="complementary" class="span4">
+
+	<!-- Non-working search form -->
+	<div id="input">
+        <form method="get" action="http://www.google.com/search">
+        <label class="assistive-text" for="s">Search for:</label>
+       <input type="text" id="text" name="q"  width="10px" size="20" placeholder="Search..."
+       maxlength="255" value="" />
+        <input type="image" id="pic"  src="images/google.png" value="Search"/>
+         </form>
+   </div> <!-- .searchform.widget -->	
+
+
+	<aside class="widget">
+		<h3 class="widget-title">Links</h3>
+<ul>
+                    <li><a href="http://vk.com/denistepp"><img src="images/vk.png"></a>     <a href="http://www.vk.com/denistepp">VK</a></li>
+                    <li><a href="http://twitter.com/denistepp"><img src="images/twitter.png"></a>    <a href="http://twitter.com/denistepp">Twitter</a></li>
+                    <li><a href="http://www.facebook.com/denistepp1"><img src="images/fb.png"></a>    <a href="http://www.facebook.com/denistepp1">Facebook</a></li>
+                    <li><a href="http://www.humber.ca"><img src="images/humber.png"></a>    <a href="http://www.humber.ca">Humber College Main Page</a></li>
+                    <li><a href="http://www.w3schools.com"><img src="images/w3schools.jpg"></a>    <a href="http://www.w3schools.com">w3Schools Tutorials</a></li>
+          </ul>
+
+	
+
+
+	</aside> <!-- .widget -->
+
+	<aside class="widget">
+		<h3 class="widget-title">Widget</h3>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script><link rel="StyleSheet" href="http://weatherandtime.net/new_wid/w_2/style.css" type="text/css" media="screen">
+<div id="ww_2">
+    <ul id="weather02_body_6167865" style="position: relative; width: 177px; height: 73px; margin: 0px auto 10px; list-style: none;"><li style="position:absolute; margin:0px auto 10px auto; left:10px;"><img width="60px" height="60px" src="http://weatherandtime.net/images/icons/5/02d.png"></li>
+        <li id="weather02_t_6167865" class="weather02_t">+5°C</li>
+        <li id="weather02_city_6167865" class="weather02_city"><a href="http://weatherandtime.net/en/North-America/canada/toronto-weather.html" title="Toronto Weather forecast">Toronto Weather forecast</a></li>
+        <li id="weather02_date_6167865" class="weather02_date">2016-03-26</li>
+        
+    </ul>
+</div>
+<script type="text/javascript" src="http://weatherandtime.net/w_4.js?city=6167865&amp;lang=en&amp;cf=C&amp;icon=5"></script>
+	</aside> <!-- .widget -->
+
+</div> <!-- #sidebar -->
+
+</div> <!-- #main -->
+
+		</p>
+	</footer> <!-- #footer -->
+
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+	<!-- Load custom scripts -->
+	<script src="js/script.js"></script>
+</body>
+</html>

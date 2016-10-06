@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.outset{border-style: outset;}
+h2 {
+	color:green
+}
+h1{
+	color:Green
+}
+div{    
+    width: 1175px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border: 25px solid green;
+    margin: 10px 5px 10px 5px;   
+}
+
+body{
+    background-image: url("5.jpg");
+    background-repeat: repeat-y; 
+    background-position: 80% 70%;
+}
+</style>
+</head>
+
+
+<body>
+<div class="outset">
+<!--<p class="dashed">-->
+
+<h1></b>Babolat: Order your racquet now!</h1></b>
+<p>Select the options below and build your perfect custom racket! </p>
+
+<h2>Please select model</h2></b>
+<form action="some.php">
+  <select name="model">
+    <option value=""></option>
+    <option value="Pure Storm">Pure Storm</option>
+    <option value="Pure Drive">Pure Drive</option>
+    <option value="Aero GT">Aero GT</option>
+    <option value="Strike">Strike</option>
+  </select>
+  <br><br>  
+</form>
+<br>
+
+<h2><b>Select Gauge Strumming</h2></b>
+<form action="anything.php"
+oninpuat="x.value=parseInt(a.value)">
+  Soft Strumming Gauge
+  <input type="range" id="a" name="a" value="50">
+  Tight Strumming Gauge
+  <output name="x" for="a"></output>
+  <br><br>
+</form>
+
+
+<h2><b>Choose color of the frame</h2></b>
+  <input type="radio" name="color" value="red">
+  Hot Red
+  <input type="radio" name="color" value="blue">
+  Sky Blue
+  <input type="radio" name="color" value="green">
+  Neon Green
+  <br><br>
+
+<h2><b>Choose color and model of strums</h2></b>
+Color: <input type="color" name="strumColor"><br><br> 
+Model: <select name="strums">
+    <option value=""></option>
+    <option value="Babolat">Babolat</option>
+    <option value="Wilson">Wilson</option>
+    <option value="Fisher">Fisher</option>
+    <option value="Prince">Prince</option>
+  </select>
+<br><br>
+
+<h2><b>Choose the color of your grip</h2></b>
+<input type="color" name="gripColor">
+Grip color
+<br><br>
+
+<h2>Quantity</h2><br></b>
+<select name="quantity">
+	<option value=""></option>
+	<option value="1">1</option>
+      <option value="3">2</option>
+     <option value="4">3</option>
+     <option value="4">4</option>
+   </select>
+ <br><br>
+
+
+<h2><b>If you have any preferences or any comments for the order, let us now!<h2></b>
+<form action="action_page.php">
+  <textarea name="message" rows="10" cols="30">
+  </textarea>
+  <br><br>
+</form>
+<br>
+
+<hr>
+
+<h1><b>Shipment Information</h1></b>
+<br>
+
+<h2><b>Choose day for delivery:</h2></b>
+<input type="date" name="dateShip" value="30/11/2015" max="31/12/2018">
+<br><font color="ff0000">*</font>Additional charges may be applied for faster delivery
+<br><font color="ff0000">**</font>Shipment usually takes 20-25 day (weekends included)
+<br><br>
+
+<h2><b>Select best time for you to recieve package during the day</h2></b>
+<br>
+<input type="time" value="11:11" name="deliveryTime">
+<br><br>
+
+<h2><b>Address Information</h2></b><br><br>
+<input type="email" name="email"> E-mail<br><br>
+<input type="address" name="address"> Address<br><br>
+<input type="text" name="city"> City
+
+<select>
+	<option value="AB">Alberta</option>
+	<option value="BC">British Columbia</option>
+	<option value="MB">Manitoba</option>
+	<option value="NB">New Brunswick</option>
+	<option value="NL">Newfoundland and Labrador</option>
+	<option value="NS">Nova Scotia</option>
+	<option value="ON">Ontario</option>
+	<option value="PE">Prince Edward Island</option>
+	<option value="QC">Quebec</option>
+	<option value="SK">Saskatchewan</option>
+	<option value="NT">Northwest Territories</option>
+	<option value="NU">Nunavut</option>
+	<option value="YT">Yukon</option>
+</select> Province<br><br>
+
+<input type="text" name="postal code"> Postal Code<br><br>
+<input type=text" placeholder="123-456-7890" name="cell"> Phone<br><br>
+
+<button type="button" onclick="alert('Thank you for your order!')">Submit Order</button>
+
+</div>
+</body>
+</html>

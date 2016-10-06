@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<style>
+input#pic{
+	vertical-align: middle;
+	position: relative;
+	top: 3px;
+}
+input#text{
+	height:44px;
+}
+</style>
+	<title>
+	Main Page
+	</title>
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Put your title here! -->
+	<title></title>
+
+	<meta name="description" content="">
+
+	 <!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width">
+
+	<link href="style.css" rel="stylesheet">
+
+	<!-- Load Open Sans and Merriweather from Google Fonts
+		For optimal performance, customize it to load the styles you need:
+		http://goo.gl/QufgJ
+	-->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Merriweather:400,700,900" rel="stylesheet">
+
+	<!-- All JavaScript at the bottom, except for Modernizr
+		Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
+		For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="js/modernizr-2.6.1.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Prompt IE 6 and 7 users to install Chrome Frame:		chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 8]>
+		<p class="chromeframe alert alert-warning">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+	<![endif]-->
+
+	<header id="master-header" class="clearfix" role="banner">
+
+		<hgroup>
+			
+<h1 id="site-title"><a href="index.html" title="Your Site Name">
+Denis Tepp Main Page</a></h1>
+			<h2 id="site-description">
+<a href="http://www.instagram.com/denistepp">
+<img src ="images/instagram.png"></a>  
+Find me on Instagram: 
+<a href="http://www.instagram.com/trinbryden">HOLY SHIT WHAT</a></h2>
+		</hgroup>
+
+	</header> <!-- #master-header -->
+
+<div id="main" class="row clearfix">
+
+	<!-- Main navigation -->
+	<nav class="main-navigation clearfix span12" role="navigation">
+		<h3 class="assistive-text">Main menu</h3>
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li>
+				<a href="about.html">About</a>
+				<ul class="sub-menu">
+					<li><a href="diana/index.html">Another page</a></li>
+					<!--<li><a href="#">Subpage 2</a></li>-->
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav> <!-- #main-navigation -->
+
+<div id="content" role="main" class="span7">
+
+	<article class="post hentry">
+
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="game/battleship.html" title="Post Heading" rel="bookmark">Game: Battleship</a>
+			</h1>
+
+			<a href="game/battleship.html" title="Post Heading"><img src="images/board.jpg" class="thumbnail" /></a>
+		</header> <!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>
+			<h4><b>Click on the title or the picture to start the game!</b></h4><br>
+Basic javascript implementation of the game <a href="game/battleship.html">Battleship.</a> Three ships are randomly placed on the board, either vertically or horizontally. The ships do not overlap. At the end the game will show your accuracy. Good Luck!
+			</p>
+
+		<footer class="entry-meta">
+			Posted in <a href="index.html" rel="category">Main Page</a>
+			on <time class="entry-date" datetime="2012-06-25" pubdate>March 25 2016</time>
+			by Denis Tepp<!--<a href="game/battleship.html">PLAY!</div></a>-->
+		</footer>
+
+	</article> <!-- .post.hentry -->
+
+	<article class="post hentry">
+
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="order_and_chaos/index.html" rel="bookmark">Game: Order vs Chaos</a></h1>
+
+			<a href="order_and_chaos/index.html">
+				<img src="order_and_chaos/order_and_chaos.jpg" width="200px" height="200px" class="thumbnail" />
+			</a>
+		</header> <!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>Simple example of board game <a href="order_and_chaos/index.html">Order and Chaos</a> where two players
+			   try to achieve order in figures or chaos on board. There are several versions of this game.
+			</p>
+			<br>
+			<p>
+				English version: 
+<a href="order_and_chaos/index.html">Order_vs_Chaos(English)</a><br>
+			Руская Версия :<a href="order_and_chaos_russian/index.html">Order_vs_Chaos(Russian)</a>
+
+		</div> <!-- .entry-content -->
+
+	</article> <!-- .post.hentry -->
+
+		<footer class="entry-meta">
+			Posted in <a href="index.html" rel="category">Main Page</a>
+			on <time class="entry-date" datetime="2012-06-24" pubdate>April 17 2016</time>
+			by Denis Tepp</a></span>
+		</footer>
+
+	</article> <!-- .post.hentry -->
+
+</div> <!-- #content -->
+
+<div id="sidebar" role="complementary" class="span4">
+
+	<!-- Non-working search form -->
+	<div id="input">
+	<form method="get" action="http://www.google.com/search">
+	<label class="assistive-text" for="s">Search for:</label>
+	<input type="text" id="text" name="q"  width="10px" size="20" placeholder="Search..." 
+	maxlength="255" value="" />
+	<input type="image" id="pic"  src="images/google.png" value="Search"/>	
+	</form>
+	</div> <!-- .searchform.widget -->
+
+	<aside class="widget">
+		<h3 class="widget-title">Links</h3>
+
+		<ul>
+			<li><a href="http://vk.com/denistepp"><img src="images/vk.png"></a>     <a href="http://www.vk.com/denistepp">VK</a></li>
+			<li><a href="http://twitter.com/denistepp"><img src="images/twitter.png"></a>    <a href="http://twitter.com/denistepp">Twitter</a></li>
+			<li><a href="http://www.facebook.com/deistepp1"><img src="images/fb.png"></a>    <a href="http://www.facebook.com/denistepp1">Facebook</a></li>
+			<li><a href="http://www.humber.ca"><img src="images/humber.png"></a>    <a href="http://www.humber.ca">Humber College Main Page</a></li>
+			<li><a href="http://www.w3schools.com"><img src="images/w3schools.jpg"></a>    <a href="http://www.w3schools.com">w3Schools Tutorials</a></li>
+		</ul>
+	</aside> <!-- .widget -->
+
+	<aside class="widget">
+		<h3 class="widget-title">Widget</h3>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script><link rel="StyleSheet" href="http://weatherandtime.net/new_wid/w_2/style.css" type="text/css" media="screen">
+<div id="ww_2">
+    <ul id="weather02_body_6167865" style="position: relative; width: 177px; height: 73px; margin: 0px auto 10px; list-style: none;"><li style="position:absolute; margin:0px auto 10px auto; left:10px;"><img width="60px" height="60px" src="http://weatherandtime.net/images/icons/4/02d.png"></li>
+        <li id="weather02_t_6167865" class="weather02_t">+5°C</li>
+        <li id="weather02_city_6167865" class="weather02_city"><a href="http://weatherandtime.net/en/North-America/canada/toronto-weather.html" title="Toronto Weather forecast">Toronto Weather forecast</a></li>
+        <li id="weather02_date_6167865" class="weather02_date">2016-03-26</li>
+        
+    </ul>
+</div>
+<script type="text/javascript" src="http://weatherandtime.net/w_4.js?city=6167865&amp;lang=en&amp;cf=C&amp;icon=4"></script>
+	</aside> <!-- .widget -->
+
+</div> <!-- #sidebar -->
+
+</div> <!-- #main -->
+
+
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+	<!-- Load custom scripts -->
+	<script src="js/script.js"></script>
+</body>
+</html>
