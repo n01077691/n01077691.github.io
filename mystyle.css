@@ -1,7 +1,10 @@
 a:hover{
     color: #26B618;
 }
-#hnew {
+div {
     color: #20262b;
     font-weight: bold;
 }    
+div:hover{
+    color: #B811E5;
+}
