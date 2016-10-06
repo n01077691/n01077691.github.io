@@ -1,8 +1,10 @@
 nav {
-    background-color: blue;
+    background-color: green;
 }
 
 a:hover {
-    color: red;
     background-color: yellow;
+}
+li:hover{
+    color: red   
 }
