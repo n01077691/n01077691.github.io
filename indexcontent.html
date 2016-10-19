@@ -13,8 +13,13 @@
  <SECTION ID="Section_7">
 	 <div class="headings">Week 7</div>
 	 <p>
-		 <b>Update:</b>Drone controller has mx297 transceiver on which I have not found any information online. Problem is to connect to antenna 
+		 <ul><li>
+		 <b>Update: </b>Drone controller has mx297 transceiver on which I have not found any information online. Problem is to connect to antenna 
 		 of the controller using sparkFun breakout board.
+			 </li>
+			 <li>
+		i2cdetect -y 1 command shows "68" for real-time clock. This means that drivers were not installed ("uu" should be shown instead).
+		It also means if Raspberry Pi has no access to internet, it would not show proper time when executing i2c files.</li>
 	 </p>
 	 
 </section>
