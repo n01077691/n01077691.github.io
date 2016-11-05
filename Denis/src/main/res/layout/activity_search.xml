@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/patient_id_text"
+        android:id="@+id/patient_id_text"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edit_text_id"
+        android:hint="@string/id_hint"
+        android:layout_below="@+id/patient_id_text"
+        android:layout_alignStart="@+id/patient_id_text"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_by_id"
+        android:id="@+id/button_search_by_id"
+        android:background="@color/fab"
+        android:textColor="@color/white"
+        android:onClick="searchContact"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edit_text_id"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/patient_dept_text"
+        android:id="@+id/patient_dept_text"
+        android:layout_below="@+id/button_search_by_id"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_search"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/patient_dept_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter"
+        android:id="@+id/button_filter"
+        android:background="@color/fab"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/spinner_search"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/display_fname"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_filter"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/display_lname"
+        android:layout_below="@+id/display_fname"
+        android:layout_alignStart="@+id/display_fname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/display_gender"
+        android:layout_below="@+id/display_lname"
+        android:layout_alignStart="@+id/display_lname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/display_dept"
+        android:layout_below="@+id/display_id"
+        android:layout_alignStart="@+id/display_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/display_id"
+        android:layout_below="@+id/display_gender"
+        android:layout_alignStart="@+id/display_gender" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewFirstname"
+        android:id="@+id/listviewfirstname_search"
+        android:layout_below="@+id/button_filter"
+        android:layout_alignStart="@+id/button_search_by_id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewLastname"
+        android:id="@+id/listviewlastname_search"
+        android:layout_below="@+id/listviewfirstname_search"
+        android:layout_alignStart="@+id/button_search_by_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewGender"
+        android:id="@+id/listviewgender_search"
+        android:layout_below="@+id/listviewlastname_search"
+        android:layout_alignStart="@+id/button_search_by_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewHealthID"
+        android:id="@+id/listviewid_search"
+        android:layout_below="@+id/listviewgender_search"
+        android:layout_alignStart="@+id/button_search_by_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewDepartment"
+        android:id="@+id/listviewdept_search"
+        android:layout_below="@+id/listviewid_search"
+        android:layout_alignStart="@+id/button_search_by_id" />
+
+</RelativeLayout>
+</ScrollView>

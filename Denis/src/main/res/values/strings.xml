@@ -1,0 +1,94 @@
+<resources>
+    <string name="menusearch">text</string>
+    <string name="app_name">DenisAssign2</string>
+
+    <!--Activities text-->
+    <string name="viewInfoButtonText">View Information</string>
+    <string name="search">Search &amp; Filter</string>
+    <string name="patient">Add Patient</string>
+    <string name="test">Add Test</string>
+
+    <!--ViewInformation texts -->
+    <string name="AddPatientText">Add Patient</string>
+    <string name="AddTestText">Add Test</string>
+
+
+    <!--Add Parient texts-->
+    <string name="fname">First Name</string>
+    <string name="fname_hint">Enter First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="lname_hint">Enter last name</string>
+    <string name="dept">Select Department</string>
+    <string name="audiology">Audiology</string>
+    <string name="cardiology">Cardiology</string>
+    <string name="physiotherapy">Physiotherapy</string>
+    <string name="urology">Urology</string>
+    <string name="invalid_fname">Invalid First Name</string>
+    <string name="invalid_lname">Invalid Last Name</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="patient_id_add">Patient ID</string>
+    <string name="patient_id_add_number">Enter 6-digit ID (ex.123456)</string>
+    <string name="invalid_ID">Please Enter Valid ID</string>
+    <string name="invalid_radio">Please Choose a Gender</string>
+
+    <!--Search texts-->
+    <string name="patient_id_text">Search By Patient ID</string>
+    <string name="id_hint">Enter patient ID</string>
+    <string name="search_by_id">Search By Patient ID</string>
+    <string name="patient_dept_text">Filter By Department</string>
+    <string name="filter">Filter By Department</string>
+    <string name="alt_search">You are already in the Search</string>
+
+    <!--Add Test texts-->
+    <string name="name_by_id">Select Patient</string>
+    <string name="select_example">Example</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="radio_positive">Positive</string>
+    <string name="radio_negative">Negative</string>
+    <string name="cholesterol">Cholesterol</string>
+    <string name="hint_cholesterol">Enter Cholesterol [mg/dL] (Ex. 150)</string>
+    <string name="temperature">Temperature</string>
+    <string name="hint_temperature">Enter Temperature (Ex. 36.6)</string>
+    <string name="date">Test Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="add_test">Add Test</string>
+    <string name="invalid_cho">Please enter valid Cholesterol level</string>
+    <string name="invalid_temp">Please enter valid Temperature</string>
+    <string name="invalid_date">Please choose a date</string>
+    <string name="resp_rate">Respiratory Rate</string>
+    <string name="resp_rate_number">Enter Respiratory Rate (ex. 20)</string>
+    <string name="blood_oxygen_level">Blood Oxygen Level</string>
+    <string name="blood_oxygen_level_number">Enter Blood Oxygen Level [mm HG]</string>
+    <string name="heart_beat_rate">Heart Beat Rate</string>
+    <string name="heart_beat_rate_number">Enter Heart Beat Rate [BpM]</string>
+    <string name="invalid_resp_rate">Please Enter Valid Respiratory Rate</string>
+    <string name="invalid_blood_oxygen_level">Please Enter Valid Blood Oxygen Level</string>
+    <string name="invalid_heart_beat_rate">Please Enter Valid Heart Beat Rate</string>
+    
+    <!--<string name="invalid_radio">Please Choose on of the Blood Pressure options</string>-->
+
+    <!-- Date texts -->
+    <string name="day">Day: |&#032;</string>
+    <string name="month">Month: |&#032;</string>
+    <string name="year">Year: |&#032;</string>
+
+    <!--Misc-->
+    <string name="placeholder1">firstname</string>
+    <string name="placeholder2">lastname</string>
+    <string name="placeholder3">department</string>
+    <string name="placeholder4">healthID</string>
+    <string name="placeholder5">gender</string>
+    <string name="listviewFirstname">First Name:</string>
+    <string name="listviewLastname">Last Name:</string>
+    <string name="listviewDepartment">Department:</string>
+    <string name="listviewHealthID">Health ID:</string>
+    <string name="listviewGender">Gender:</string>
+    <string name="button_details">Details</string>
+    <string name="button_delete">Delete</string>
+    <string name="invalid_row_id">Patient was not found</string>
+
+
+</resources>
