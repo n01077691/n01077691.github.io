@@ -77,29 +77,25 @@
 	
 	<SECTION ID="assembly">
 		<H3>Mechanical Assembly</H3>
-		<p>Step 1: Purchase the required parts</p>
-		<p>Step 2: Connect the nRF24L01 Transceiver to the Arduino</p>
-		<p>This is the pin set up from the Arduino to the nRF24L01 Transceiver:</p>
-		<p>5v -> VCC <br> GND -> GND <br> D8 -> IRQ <br> D9 -> CE <br> D10 -> CSN
-		<br>D11 -> MOSI <br> D12 -> MISO <br> D13 -> SCK <br> Once the circuit has been built, it should look like this: </p>
-		<img src="../Documents/nRF24L01 hookup.png" alt="error">
-		<p>Step 3: Download the nRF24L01 libraries from <a href="https://libs1.github.io/Documents/RF24.zip">here</a></p>
+		<p>Step 1: Be sure you have the required parts</p>
+		<p>Step 2: Connect the nRF24L01 Transceiver to the Arduino using <a href="https://learn.sparkfun.com/tutorials/nrf24l01-transceiver-hookup-guide?_ga=1.24097530.1370475674.1481041091">Hook Up Guide<a/></p>
+		<p>Step 3:<a href="https://n01077691.github.io/Documentation/RF24.zip">Get</a> the RF24 library with basic examples</p>
 	</SECTION>
 	
-	<SECTION ID="Power Up">
+	<SECTION ID="power_up">
 		<H3>Power Up</H3>
-		<p>Once the circuit has been built, plug the Arduino into the PC and open the Arduino IDE. Import the library into
-		the Arduino IDE by going to Sketch->Include Library->Add .ZIP Library. Once the library has been added into the IDE,
-		copy the code from <a href="https://libs1.github.io/Documents/arduinoled.ino">here</a>. Once the code is copied, upload it
-		by clicking the arrow icon on the top left of the IDE. When it has finished uploading, open the serial monitor by going to
-		Tools->Serial Monitor. You are now able to communicate with another transceiver.<br>NOTE: enable for two transceivers to
-		communicate with each other, one user will have to have a radioNumber = 0 and another user to have a radioNumber = 1.
-		This is changed inside the arduino code.</p>
+		<p>Start your Arduino IDE rigth after the circuit is built. Import the library into
+		the Arduino IDE (Sketch->Include Library->Add .ZIP Library -> Select RF24.zip). Once the library has been added into the IDE,
+		get the code from <a href="https://n01077691.github.io/Documentation/arduino_open_house.ino">repository</a>. Once the code is compiled, upload it
+		by clicking the arrow icon on the top left of the IDE. Next, check for any compilation errors and open the serial monitor
+		(Tools->Serial Monitor). You will now be able to communicate with another sparkFun transceiver.<br>To establish communication
+		between two transceivers one user will have to change a <b>radioNumber = 0</b> and another user change to <b>radioNumber = 1.</b>
+		</p>
+		<p>NOTE: Since the binding was not yet establish, future code examples and documentation will be posted here and be updated
+			weekly or bi-weekly.</p>
 		
 	</SECTION>
 	
-	<SECTION ID="Reproducible">
+	<SECTION ID="reproduce">
 		<H3>Is This Project Reproducible?</H3>
-		<p>This project is reproducible if the given build instructions are followed and if the wiring of the circuit is done
-		correctly.</p>
-	</SECTION>
+		<p>This project is reproducible if user purchased same materials as described above and build instructions were followed correctly</p>
