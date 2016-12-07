@@ -1,0 +1,103 @@
+<ARTICLE ID="Article_1">
+	<HEADER ID="Header_Article_1">
+		<H2>Software Controlled Drone - Build Instructions</H2>
+ 	</HEADER>
+	
+	<SECTION ID="Introduction">
+		<H3>Introduction</H3>
+		<p>The Software Controlled Drone project will allow users to control a Syma X12 Nano QuadCopter Drone with an Android application,
+  		which will use an Arduino and a nRF24L01 transciever to communicate with the drone.</p>
+	</SECTION>
+	
+	<SECTION ID="Budget">
+		<H3>Bill of Materials/Budget</H3>
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Quantity</th>
+				<th>Total Price(With Tax + Shipping)</th>
+			</tr>
+			<tr>
+				<td>Arduino Uno R3</td>
+				<td>1</td>
+				<td>$30.95</td>
+			</tr>			<tr>
+				<td>SparkFun Transceiver Breakout - nRF24L01</td>				<td>1</td>
+				<td>$29.37</td>
+			</tr>
+			<tr>
+				<td>Syma x12 Nano 6-Axis Gyro 4CH RC Quadcopter Drone</td>
+				<td>1</td>
+				<td>$49.37</td>			</tr>			<tr>
+				<td>AA Batteries</td>
+				<td>1 pack(containing 4 batteries)</td>				<td>$5.64</td>
+			</tr>
+			<tr>
+				<td>BreadBoard</td>
+				<td>1</td>
+				<td>$12.99</td>
+			</tr>			<tr>
+
+			<td>Jumper Wires</td>				<td>40 Pack</td>
+				<td>$9.03</td>
+			</tr>
+			  		</table>
+	</SECTION>
+	
+	<SECTION ID="Time Commitment">
+		<H3>Time Commitment</H3>		<table>
+			<tr>				<td>Task</td>				<td>Time To Complete The Task</td>
+			</tr>
+			<tr>
+				<td>Ordering Parts</td>
+				<td>3 Days(Shippings)</td>
+			</tr>
+			<tr>
+				<td>Wiring the nRF24L01 transceiver to the Arduino</td>
+				<td>20 minutes</td>
+			</tr>
+			<tr>
+				<td>Downloading the Arduino IDE</td>
+				<td>10 minutes</td>
+			</tr>
+			<tr>
+				<td>Importing the nRF24L01 library to the Arduino</td>
+				<td>10 minutes</td>
+			</tr>
+			<tr>
+				<td>Running the code</td>
+				<td>5 minutes</td>
+			</tr>
+		
+			
+		</table>
+	</SECTION>
+	
+	<SECTION ID="Mechanical Assembly">
+		<H3>Mechanical Assembly</H3>
+		<p>Step 1: Purchase the required parts</p>
+		<p>Step 2: Connect the nRF24L01 Transceiver to the Arduino</p>
+		<p>This is the pin set up from the Arduino to the nRF24L01 Transceiver:</p>
+		<p>5v -> VCC <br> GND -> GND <br> D8 -> IRQ <br> D9 -> CE <br> D10 -> CSN
+		<br>D11 -> MOSI <br> D12 -> MISO <br> D13 -> SCK <br> Once the circuit has been built, it should look like this: </p>
+		<img src="../Documents/nRF24L01 hookup.png" alt="error">
+		<p>Step 3: Download the nRF24L01 libraries from <a href="https://libs1.github.io/Documents/RF24.zip">here</a></p>
+	</SECTION>
+	
+	<SECTION ID="Power Up">
+		<H3>Power Up</H3>
+		<p>Once the circuit has been built, plug the Arduino into the PC and open the Arduino IDE. Import the library into
+		the Arduino IDE by going to Sketch->Include Library->Add .ZIP Library. Once the library has been added into the IDE,
+		copy the code from <a href="https://libs1.github.io/Documents/arduinoled.ino">here</a>. Once the code is copied, upload it
+		by clicking the arrow icon on the top left of the IDE. When it has finished uploading, open the serial monitor by going to
+		Tools->Serial Monitor. You are now able to communicate with another transceiver.<br>NOTE: enable for two transceivers to
+		communicate with each other, one user will have to have a radioNumber = 0 and another user to have a radioNumber = 1.
+		This is changed inside the arduino code.</p>
+		
+	</SECTION>
+	
+	<SECTION ID="Reproducible">
+		<H3>Is This Project Reproducible?</H3>
+		<p>This project is reproducible if the given build instructions are followed and if the wiring of the circuit is done
+		correctly.</p>
+	</SECTION>
