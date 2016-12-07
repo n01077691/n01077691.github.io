@@ -1,16 +1,17 @@
 <ARTICLE ID="Article_1">
 	<HEADER ID="Header_Article_1">
-		<H2>Software Controlled Drone - Build Instructions</H2>
+		<H2>Build Log: Software Controlled Drone</H2>
  	</HEADER>
 	
-	<SECTION ID="Introduction">
+	<SECTION ID="intro">
 		<H3>Introduction</H3>
-		<p>The Software Controlled Drone project will allow users to control a Syma X12 Nano QuadCopter Drone with an Android application,
-  		which will use an Arduino and a nRF24L01 transciever to communicate with the drone.</p>
+		<p>The Software Controlled Drone project allows its' users to control quadcopter (Syma x12) using Arduino with nRF24L01 radio.
+		The project is currently unfinished due to unsuccessful binding process.
+  		</p>
 	</SECTION>
 	
-	<SECTION ID="Budget">
-		<H3>Bill of Materials/Budget</H3>
+	<SECTION ID="budget">
+		<H3>Material Estimates:</H3>
 		<table>
 			<tr>
 				<th>Item</th>
@@ -18,62 +19,63 @@
 				<th>Total Price(With Tax + Shipping)</th>
 			</tr>
 			<tr>
-				<td>Arduino Uno R3</td>
+				<td>Arduino Uno</td>
 				<td>1</td>
-				<td>$30.95</td>
+				<td>$36.36</td>
 			</tr>			<tr>
-				<td>SparkFun Transceiver Breakout - nRF24L01</td>				<td>1</td>
-				<td>$29.37</td>
+				<td>SparkFun Transceiver Breakout Board - nRF24L01</td>
+				<td>1</td>
+				<td>$37.26</td>
 			</tr>
 			<tr>
 				<td>Syma x12 Nano 6-Axis Gyro 4CH RC Quadcopter Drone</td>
 				<td>1</td>
-				<td>$49.37</td>			</tr>			<tr>
+				<td>$40.66</td>			
+			</tr>			
+			<tr>
 				<td>AA Batteries</td>
-				<td>1 pack(containing 4 batteries)</td>				<td>$5.64</td>
+				<td>1 pack(4 batteries)</td>				
+				<td>$3.39</td>
 			</tr>
 			<tr>
 				<td>BreadBoard</td>
 				<td>1</td>
 				<td>$12.99</td>
-			</tr>			<tr>
-
-			<td>Jumper Wires</td>				<td>40 Pack</td>
-				<td>$9.03</td>
-			</tr>
+			</tr>			
 			  		</table>
 	</SECTION>
 	
-	<SECTION ID="Time Commitment">
-		<H3>Time Commitment</H3>		<table>
-			<tr>				<td>Task</td>				<td>Time To Complete The Task</td>
+	<SECTION ID="time">
+		<H3>Time Commitment</H3>		
+		<table>
+			<tr>				
+				<td>Task</td>				
+				<td>Time To Complete The Task</td>
 			</tr>
 			<tr>
 				<td>Ordering Parts</td>
-				<td>3 Days(Shippings)</td>
+				<td>3 - 4 Days( + Shipping)</td>
 			</tr>
 			<tr>
-				<td>Wiring the nRF24L01 transceiver to the Arduino</td>
-				<td>20 minutes</td>
-			</tr>
-			<tr>
-				<td>Downloading the Arduino IDE</td>
+				<td>Hook up nRF24L01 transceiver to the Arduino (<a href="https://learn.sparkfun.com/tutorials/nrf24l01-transceiver-hookup-guide?_ga=1.24097530.1370475674.1481041091">Hook Up Guide</a>)</td>
 				<td>10 minutes</td>
 			</tr>
 			<tr>
-				<td>Importing the nRF24L01 library to the Arduino</td>
+				<td>Downloading and Setting Up the Arduino IDE</td>
+				<td>10 - 30 minutes depending on your computer perfomance</td>
+			</tr>
+			<tr>
+				<td>Establishing connection with another sparkFun board</td>
 				<td>10 minutes</td>
 			</tr>
 			<tr>
-				<td>Running the code</td>
-				<td>5 minutes</td>
+				<td>Binding with the drone</td>
+				<td>N/A</td>
 			</tr>
-		
-			
 		</table>
 	</SECTION>
 	
-	<SECTION ID="Mechanical Assembly">
+	<SECTION ID="assembly">
 		<H3>Mechanical Assembly</H3>
 		<p>Step 1: Purchase the required parts</p>
 		<p>Step 2: Connect the nRF24L01 Transceiver to the Arduino</p>
