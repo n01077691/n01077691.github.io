@@ -86,13 +86,20 @@
 		<H3>Power Up</H3>
 		<p>Start your Arduino IDE rigth after the circuit is built. Import the library into
 		the Arduino IDE (Sketch->Include Library->Add .ZIP Library -> Select RF24.zip). Once the library has been added into the IDE,
-		get the code from <a href="https://n01077691.github.io/Documentation/arduino_open_house.ino">repository</a>. Once the code is compiled, upload it
-		by clicking the arrow icon on the top left of the IDE. Next, check for any compilation errors and open the serial monitor
-		(Tools->Serial Monitor). You will now be able to communicate with another sparkFun transceiver.<br>To establish communication
-		between two transceivers one user will have to change a <b>radioNumber = 0</b> and another user change to <b>radioNumber = 1.</b>
+		get the code from <a href="https://n01077691.github.io/Documentation/arduino_open_house.ino">repository</a>.
+			
+		<b>To establish communication between two transceivers one user will have to set <i>radioNumber = 0</i> and another user change to <i>radioNumber = 1.</i></b>
+		
+		Once the code is compiled, upload it by clicking the arrow icon on the top left of the IDE. Next, check for any 
+		compilation errors and open the serial monitor
+		(Tools->Serial Monitor). You will now be able to communicate with another sparkFun transceiver.<br>
+		Be sure that LED of the Sender goes RED when transceiving times out and GREEN when data is successfully transmitted. LED of
+		the receiver will be always GREEN, since it is always trying to receive any data. On the Serial Monitor you should be able to
+		see all details about packets sent.<br>
+			
 		</p>
 		<p>NOTE: Since the binding was not yet establish, future code examples and documentation will be posted here and be updated
-			weekly or bi-weekly.</p>
+		weekly or bi-weekly.</p>
 		
 	</SECTION>
 	
